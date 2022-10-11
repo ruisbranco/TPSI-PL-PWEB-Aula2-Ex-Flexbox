@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/flex.js"></script>
+    <title>Intodução ao alinhamento de objetos com Flexbox</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li> <a href="../index.html">Home</a></li>
+                <li> <a href="#">Flex Direction</a></li>
+                <li> <a href="wrap.html">Flex Wrap</a></li>
+                <li> <a href="justify.html">Justify content</a></li>
+                <li> <a href="align.html">Align Items</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="container">
+            <div class="square">1</div>
+            <div class="square">2</div>
+            <div class="square">3</div>
+            <div class="square">4</div>
+            <div class="square">5</div>
+        </div>
+        <div id="comandos">
+            <button onclick="fd('row');">flex-direction:row</button>
+            <button onclick="fd('row-reverse');">flex-direction:row-reverse</button>
+            <button onclick="fd('column');">flex-direction:column</button>
+            <button onclick="fd('column-reverse');">flex-direction:column-reverse</button>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
