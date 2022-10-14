@@ -3,7 +3,8 @@
 }
 .square{
     width: 100px;
-    height: 100px;
+    min-height: 100px;
+    max-height: 250px;
     background-color: orange;
     color: white;
     display: flex;
